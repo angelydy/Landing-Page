@@ -21,6 +21,7 @@ body {
 .navbar .logo {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
+  font-size: 30px;
 }
 
 .navbar .navlinks {
@@ -47,28 +48,39 @@ body {
 
 .navbar .search {
   font-weight: 500;
-  border-radius: 45px;
-  width: 15vh;
+  border-radius: 50px;
+  width: 20vh;
   height: 5vh;
   border-style: none;
-  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
   -webkit-transition: .2s ease-in-out 0s;
   transition: .2s ease-in-out 0s;
+  background-color: black;
+  color: white;
   position: relative;
-  left: 80px;
+  left: 50px;
 }
 
 .navbar .search:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
-  background-color: black;
-  color: white;
+  background-color: #e5e7e9;
+  color: black;
+  border: black solid 2px;
 }
 
 .navbar .cart {
   width: 35px;
   height: 40px;
+  -webkit-transition: .2s ease-in-out 0s;
+  transition: .2s ease-in-out 0s;
+}
+
+.navbar .cart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

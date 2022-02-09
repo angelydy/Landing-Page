@@ -17,6 +17,7 @@ body {
   .logo {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+    font-size: 30px;
   }
 
   .navlinks {
@@ -43,25 +44,34 @@ body {
 
   .search {
     font-weight: 500;
-    border-radius: 45px;
-    width: 15vh;
+    border-radius: 50px;
+    width: 20vh;
     height: 5vh;
     border-style: none;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     transition: .2s ease-in-out 0s;
+    background-color: black;
+    color: white;
     position: relative;
-    left: 80px;
+    left: 50px;
 
     &:hover {
       transform: scale(1.10);
       cursor: pointer;
-      background-color: black;
-      color: white;
+      background-color: #e5e7e9;
+      color: black;
+      border: black solid 2px;
     }
   }
 
   .cart {
     width: 35px;
     height: 40px;
+    transition: .2s ease-in-out 0s;
+
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
   }
 }
