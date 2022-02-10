@@ -1,0 +1,42 @@
+  .section3 {
+    background-color: rgb(36, 36, 36);
+    color: white;
+
+    .parent-container {
+      display: flex;
+      justify-content: flex-start;
+    
+      .right-form {
+        width: 100vh;
+  
+        .section-title {
+          font-size: 50px;
+          text-align: center;
+        }
+  
+        .form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          top: 50px;
+
+          .name, .email, .message {
+            border-radius: 5px;
+            width: 60vh;
+            height: 5vh;
+            border-style: none;
+
+            &::placeholder {
+              padding: 10px;
+            }
+          }
+
+          .message {
+            height: 20vh;
+            resize: none;
+          }
+        }
+      }
+    }
+  }
