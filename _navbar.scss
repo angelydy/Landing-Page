@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+  .logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  .navlinks {
+    padding-right: 200px;
+
+    a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+
+      &:hover {
+        color: rgb(143, 105, 56);
+      }
+    }
+  }
+
+  .active {
+    border-bottom: rgb(143, 105, 56) 2px solid;
+    font-weight: bold;
+  }
+
+  .search {
+    font-weight: 500;
+    border-radius: 50px;
+    width: 20vh;
+    height: 5vh;
+    border-style: none;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    transition: .2s ease-in-out 0s;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 50px;
+
+    &:hover {
+      transform: scale(1.10);
+      cursor: pointer;
+      background-color: #e5e7e9;
+      color: black;
+      border: rgb(143, 105, 56) solid 2px;
+    }
+  }
+
+  .cart {
+    width: 35px;
+    height: 40px;
+    transition: .2s ease-in-out 0s;
+
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+
+  .menu {
+    height: 30px;
+    position: relative;
+    top: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
