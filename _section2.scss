@@ -1,4 +1,62 @@
-.vid {
-  width: 100vh;
-  height: 50vh;
+.section2 {
+  margin: 15vh;
+  background-color: rgb(36, 36, 36);
+  border-radius: 90px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+  .section2-title {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  }
+
+  .products {
+    display: flex;
+    justify-content: space-evenly;
+
+    .product1, .product2, .product3 {
+      text-align: center;
+      transition: .2s ease-in-out 0s;
+
+      p {
+        color: white;
+      }
+
+      &:hover {
+        transform: scale(1.10);
+        cursor: pointer;
+      }
+    }
+
+    .product3 img {
+      position: relative;
+      top: 80px;
+      width: 35vh;
+    }
+
+    .shoeName3 {
+      position: relative;
+      top: 100px;
+    }
+
+    .shoe1, .shoe2 {
+      width: 40vh;
+    }
+
+    .shoeName {
+      position: relative;
+      bottom: 50px;
+    }
+  }
+
+  .vid {
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    width: 120vh;
+    height: 60vh;
+    border-radius: 50px;
+  }
+}
 }

@@ -264,9 +264,78 @@
   cursor: pointer;
 }
 
-.vid {
-  width: 100vh;
-  height: 50vh;
+.section2 {
+  margin: 15vh;
+  background-color: #242424;
+  border-radius: 90px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section2 .section2-title {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.section2 .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section2 .products .product1, .section2 .products .product2, .section2 .products .product3 {
+  text-align: center;
+  -webkit-transition: .2s ease-in-out 0s;
+  transition: .2s ease-in-out 0s;
+}
+
+.section2 .products .product1 p, .section2 .products .product2 p, .section2 .products .product3 p {
+  color: white;
+}
+
+.section2 .products .product1:hover, .section2 .products .product2:hover, .section2 .products .product3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.section2 .products .product3 img {
+  position: relative;
+  top: 80px;
+  width: 35vh;
+}
+
+.section2 .products .shoeName3 {
+  position: relative;
+  top: 100px;
+}
+
+.section2 .products .shoe1, .section2 .products .shoe2 {
+  width: 40vh;
+}
+
+.section2 .products .shoeName {
+  position: relative;
+  bottom: 50px;
+}
+
+.section2 .vid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2 .vid iframe {
+  width: 120vh;
+  height: 60vh;
+  border-radius: 50px;
 }
 
 * {
