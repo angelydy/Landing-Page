@@ -375,6 +375,7 @@
 }
 
 .section3 .parent-container .right-form .form .name, .section3 .parent-container .right-form .form .email, .section3 .parent-container .right-form .form .message {
+  border-radius: 5px;
   width: 60vh;
   height: 5vh;
   border-style: none;
@@ -402,6 +403,7 @@
 }
 
 .section3 .parent-container .right-form .form .submit {
+  border-radius: 20px;
   width: 15vh;
   height: 5vh;
   border-style: none;
@@ -415,6 +417,67 @@
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: black;
+}
+
+footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer .content h3 {
+  line-height: 3rem;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 100px;
+}
+
+footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+footer .socials li {
+  margin: 0 10px;
+}
+
+footer .socials li a {
+  color: black;
+  border: 1.5px solid black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+footer .socials li a i {
+  width: 20px;
+}
+
+footer .socials li a:hover {
+  color: white;
+  background-color: black;
 }
 
 * {

@@ -1,0 +1,47 @@
+footer {
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: black;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    h3 {
+      line-height: 3rem;
+      font-weight: 900;
+      font-size: 20px;
+      border-radius: 100px;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    li {
+      margin: 0 10px;
+
+      a {
+        color: black;
+        border: 1.5px solid black;
+        padding: 10px;
+        border-radius: 50%;
+
+        i {
+          width: 20px;
+        }
+        
+        &:hover {
+          color: white;
+          background-color: black;
+        }
+      }
+    }
+  }
+}
