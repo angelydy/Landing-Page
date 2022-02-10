@@ -1,14 +1,18 @@
 @keyframes rotate {
   0%, 10% {
     transform: rotate(0);
+    opacity: 0;
   }
   100% {
+    opacity: 1;
     transform: rotate(360deg);
   }
 }
 
   .section1 {
     margin: 10vh;
+    position: relative;
+    bottom: 20px;
 
     h1 {
       font-size: 70px;
