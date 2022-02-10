@@ -9,10 +9,19 @@
   }
 }
 
+@keyframes fade {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
   .section1 {
     margin: 10vh;
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
 
     h1 {
       font-size: 70px;
@@ -43,11 +52,33 @@
         animation: rotate 5s forwards;
       }
 
+      .review {
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        font-style: italic;
+        animation: fade 5s forwards;
+
+        .review-img {
+          width: 50px;
+          animation: fade 5s forwards;
+        }
+      }
+
       .grid-3 {
         display: flex;
         flex-direction: column;
         position: relative;
         top: 150px;
+
+        .more {
+          position: relative;
+          top: 80px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
       }
 
       .small, .medium, .large, .xlarge {
