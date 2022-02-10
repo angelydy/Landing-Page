@@ -1,0 +1,32 @@
+@media all and (min-width: 320px) and (max-width: 780px) {
+
+  .section1 {
+    margin: 0;
+    text-align: center;
+    display: flex;
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+
+      .product-img {
+        width: 50vh;
+        height: auto;
+        position: relative;
+        top: 50px;
+      }
+
+      .review {
+        position: relative;
+        top: 50px;
+      }
+    }
+
+    .size-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 80px;
+    }
+  }
+}

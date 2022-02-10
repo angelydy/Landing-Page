@@ -214,6 +214,7 @@
   height: 5vh;
   -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 5px 0px;
 }
 
 .section1 .grid .small:hover, .section1 .grid .medium:hover, .section1 .grid .large:hover, .section1 .grid .xlarge:hover {
@@ -225,7 +226,7 @@
   background-color: #8f6938;
 }
 
-.section1 .price {
+.section1 .add-to-cart {
   width: 20vh;
   height: 5vh;
   border-style: none;
@@ -237,7 +238,7 @@
   transition: .2s ease-in-out 0s;
 }
 
-.section1 .price:hover {
+.section1 .add-to-cart:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
@@ -477,6 +478,48 @@ footer .socials li a i {
 footer .socials li a:hover {
   color: white;
   background-color: black;
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  .section1 {
+    margin: 0;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section1 .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section1 .grid .product-img {
+    width: 50vh;
+    height: auto;
+    position: relative;
+    top: 50px;
+  }
+  .section1 .grid .review {
+    position: relative;
+    top: 50px;
+  }
+  .section1 .size-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0 80px;
+  }
 }
 
 * {
