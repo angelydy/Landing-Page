@@ -71,9 +71,14 @@
         position: relative;
         top: 150px;
 
+        .sizes {
+        color: rgb(143, 105, 56);
+        }
+
         .more {
           position: relative;
           top: 80px;
+          color: rgb(143, 105, 56);
 
           &:hover {
             cursor: pointer;

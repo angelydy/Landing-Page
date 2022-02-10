@@ -193,9 +193,14 @@
   top: 150px;
 }
 
+.section1 .grid .grid-3 .sizes {
+  color: #8f6938;
+}
+
 .section1 .grid .grid-3 .more {
   position: relative;
   top: 80px;
+  color: #8f6938;
 }
 
 .section1 .grid .grid-3 .more:hover {
@@ -257,6 +262,11 @@
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
+}
+
+.vid {
+  width: 100vh;
+  height: 50vh;
 }
 
 * {
