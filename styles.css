@@ -37,7 +37,6 @@
 
 .search {
   font-weight: 500;
-  border-radius: 50px;
   width: 20vh;
   height: 5vh;
   border-style: none;
@@ -230,7 +229,6 @@
 .section1 .price {
   width: 20vh;
   height: 5vh;
-  border-radius: 50px;
   border-style: none;
   -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
@@ -266,7 +264,7 @@
 
 .section2 {
   margin: 15vh;
-  background-color: #242424;
+  background-color: black;
   border-radius: 90px;
   -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -339,7 +337,7 @@
 }
 
 .section3 {
-  background-color: #242424;
+  background-color: black;
   color: white;
 }
 
@@ -373,11 +371,10 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  top: 50px;
+  top: 80px;
 }
 
 .section3 .parent-container .right-form .form .name, .section3 .parent-container .right-form .form .email, .section3 .parent-container .right-form .form .message {
-  border-radius: 5px;
   width: 60vh;
   height: 5vh;
   border-style: none;
@@ -402,6 +399,22 @@
 .section3 .parent-container .right-form .form .message {
   height: 20vh;
   resize: none;
+}
+
+.section3 .parent-container .right-form .form .submit {
+  width: 15vh;
+  height: 5vh;
+  border-style: none;
+  background-color: #8f6938;
+  color: white;
+  -webkit-transition: .2s ease-in-out 0s;
+  transition: .2s ease-in-out 0s;
+}
+
+.section3 .parent-container .right-form .form .submit:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
 }
 
 * {

@@ -1,5 +1,5 @@
   .section3 {
-    background-color: rgb(36, 36, 36);
+    background-color: black;
     color: white;
 
     .parent-container {
@@ -19,10 +19,9 @@
           flex-direction: column;
           align-items: center;
           position: relative;
-          top: 50px;
+          top: 80px;
 
-          .name, .email, .message {
-            border-radius: 5px;
+          .name, .email, .message {     
             width: 60vh;
             height: 5vh;
             border-style: none;
@@ -35,6 +34,20 @@
           .message {
             height: 20vh;
             resize: none;
+          }
+
+          .submit {
+            width: 15vh;
+            height: 5vh;
+            border-style: none;
+            background-color: rgb(143, 105, 56);
+            color: white;
+            transition: .2s ease-in-out 0s;
+
+            &:hover {
+              transform: scale(1.10);
+              cursor: pointer;
+            }
           }
         }
       }
