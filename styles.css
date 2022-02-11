@@ -46,7 +46,7 @@
   transition: .2s ease-in-out 0s;
   background-color: black;
   color: white;
-  left: 50px;
+  left: 80px;
 }
 
 .search:hover {
@@ -371,7 +371,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  top: 80px;
+  top: 0px;
 }
 
 .section3 .parent-container .right-form .form .name, .section3 .parent-container .right-form .form .email, .section3 .parent-container .right-form .form .message {
@@ -480,13 +480,14 @@ footer .socials li a:hover {
   background-color: black;
 }
 
-@media all and (min-width: 320px) and (max-width: 780px) {
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  * {
+    max-width: 100%;
+  }
   .section1 {
     margin: 0;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    height: 150vh;
   }
   .section1 .grid {
     display: -webkit-box;
@@ -519,6 +520,39 @@ footer .socials li a:hover {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     margin: 0 80px;
+  }
+  .section2 {
+    margin: 0;
+    border-radius: 0;
+  }
+  .section2 .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 10vh 0;
+    position: relative;
+    bottom: 10vh;
+    width: 90%;
+    left: 3vh;
+  }
+  .section2 iframe {
+    margin: 30px;
+  }
+  .section3 .form {
+    margin: 5vh;
+  }
+  .section3 .parent-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
