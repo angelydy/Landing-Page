@@ -517,6 +517,9 @@ footer .socials li a:hover {
     text-align: center;
     height: 150vh;
   }
+  .section1 h1 {
+    font-size: 7vh;
+  }
   .section1 .grid {
     display: -webkit-box;
     display: -ms-flexbox;
