@@ -39,7 +39,8 @@
     transition: .2s ease-in-out 0s;
     background-color: black;
     color: white;
-    left: 80px;
+    left: 50px;
+    position: relative;
 
     &:hover {
       transform: scale(1.10);
