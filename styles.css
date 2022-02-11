@@ -10,7 +10,7 @@
 }
 
 .logo {
-  width: 100px;
+  width: 15vh;
 }
 
 .navlinks {
@@ -109,7 +109,7 @@
   0%, 50% {
     opacity: 0;
   }
-  100% {
+  70%, 100% {
     opacity: 1;
   }
 }
@@ -118,7 +118,7 @@
   0%, 50% {
     opacity: 0;
   }
-  100% {
+  70%, 100% {
     opacity: 1;
   }
 }
@@ -161,6 +161,17 @@
   -webkit-animation: rotate 5s forwards;
           animation: rotate 5s forwards;
   left: 30px;
+}
+
+.section1 .grid .slogan {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  font-size: 50px;
+  -webkit-animation: fade 5s infinite;
+          animation: fade 5s infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .section1 .grid .review {
@@ -505,10 +516,6 @@ footer .socials li a:hover {
   .navlinks .active {
     border-bottom: none;
   }
-  .navlinks:hover {
-    visibility: visible;
-    opacity: 1;
-  }
   .navlinks, .cart, .search {
     opacity: 0;
   }
@@ -522,6 +529,9 @@ footer .socials li a:hover {
     margin: 0;
     text-align: center;
     height: 160vh;
+  }
+  .section1 .slogan {
+    display: none;
   }
   .section1 h1 {
     font-size: 7vh;

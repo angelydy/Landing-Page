@@ -22,11 +22,6 @@
     .active {
       border-bottom: none;
     }
-
-    &:hover{
-      visibility: visible;
-      opacity: 1;
-    }
   }
 
   .navlinks, .cart, .search {
@@ -45,6 +40,10 @@
     margin: 0;
     text-align: center;
     height: 160vh;
+
+    .slogan {
+      display: none;
+    }
 
     h1 {
       font-size: 7vh;
