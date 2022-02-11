@@ -13,7 +13,6 @@
     flex-direction: column;
     text-align: center;
     background-color: black;
-    z-index: 1;
     top: 70px;
 
     a {
@@ -34,6 +33,14 @@
     opacity: 0;
   }
 
+  .menu {
+    display: block;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   .section1 {
     margin: 0;
     text-align: center;
@@ -51,6 +58,7 @@
         width: 50vh;
         position: relative;
         top: 50px;
+        left: 0;
       }
 
       .review {
@@ -62,7 +70,7 @@
     .size-buttons {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content:space-evenly;
       margin: 0 80px;
     }
   }

@@ -47,8 +47,10 @@
       }
 
       .product-img {
+        position: relative;
         width: 800px;
         animation: rotate 5s forwards;
+        left: 30px;
       }
 
       .review {
@@ -69,6 +71,7 @@
         flex-direction: column;
         position: relative;
         top: 150px;
+        align-items: center;
 
         .sizes {
         color: rgb(143, 105, 56);
@@ -114,6 +117,7 @@
       background-color: black;
       color: white;
       transition: .2s ease-in-out 0s;
+      border-radius: 30px;
 
       &:hover {
       transform: scale(1.10);

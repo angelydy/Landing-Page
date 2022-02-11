@@ -2,13 +2,10 @@
   display: flex;
   justify-content: space-evenly;
   margin: 30px;
-  z-index: 5;
 }
 
   .logo {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 30px;
+    width: 100px;
   }
 
   .navlinks {
@@ -42,6 +39,7 @@
     color: white;
     left: 50px;
     position: relative;
+    border-radius: 30px;
 
     &:hover {
       transform: scale(1.10);
@@ -68,8 +66,5 @@
     width: 30px;
     position: relative;
     top: 5px;
-
-    &:hover {
-      cursor: pointer;
-    }
+    display: none;
   }

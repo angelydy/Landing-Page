@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="assets/icon.png">
   <script src="https://kit.fontawesome.com/b87f4958ef.js" crossorigin="anonymous"></script>
+  <script src="/index.js" defer></script>
 </head>
 
 <body>
   <header id="header">
     <div class="navbar" id="nav-bar">
-      <h3 class="logo">F W •</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" alt="" class="logo">
       <div class="navlinks" id="nav-links">
         <a href="#home" class="active">Home</a>
         <a href="#products">Products</a>
@@ -30,7 +31,7 @@
       <div class="grid">
         <div class="grid-1">
           <div class="title">
-            <h1>Black<br>Supreme<br>Sneakers</h1>
+            <h1>BLACK<br>NIKE<br>TANJUN</h1>
             <p class="desc">
               One of our <b class="highlight">BEST</b> sellers<br>
               because of it's affordable<br>
@@ -117,23 +118,23 @@
             <br>
             <h1 class="section-title">Contact Us</h1>
             <br>
-            <form action="" class="form" id="form" method="post">
+            <form action="" class="form" id="form">
               <label for="name"> Name:
                 <br>
-                <input type="text" class="name" required placeholder="Enter Your Name Here">
+                <input type="text" class="name" id="name" required placeholder="Enter Your Name Here">
               </label>
               <br>
               <label for="name"> Email:
                 <br>
-                <input type="email" class="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Your Email">
+                <input type="email" class="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Your Email">
               </label>
               <br>
               <label for="name"> How can we help you?
                 <br>
-                <textarea class="message" required placeholder="Tell us how can we help you"></textarea>
+                <textarea class="message" id="message" required placeholder="Tell us how can we help you"></textarea>
               </label>
               <br><br>
-              <button type="submit" class="submit">Submit</button>
+              <button type="submit" class="submit" id="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -145,7 +146,7 @@
 <footer class="footer">
   <div class="content">
     <h3>
-      © 2022 ANJ
+      © 2022 NIKE
     </h3>
     <br>
     <ul class="socials">

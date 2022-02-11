@@ -7,13 +7,10 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin: 30px;
-  z-index: 5;
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 30px;
+  width: 100px;
 }
 
 .navlinks {
@@ -49,6 +46,7 @@
   color: white;
   left: 50px;
   position: relative;
+  border-radius: 30px;
 }
 
 .search:hover {
@@ -78,10 +76,7 @@
   width: 30px;
   position: relative;
   top: 5px;
-}
-
-.menu:hover {
-  cursor: pointer;
+  display: none;
 }
 
 @-webkit-keyframes rotate {
@@ -161,9 +156,11 @@
 }
 
 .section1 .grid .product-img {
+  position: relative;
   width: 800px;
   -webkit-animation: rotate 5s forwards;
           animation: rotate 5s forwards;
+  left: 30px;
 }
 
 .section1 .grid .review {
@@ -191,6 +188,9 @@
           flex-direction: column;
   position: relative;
   top: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section1 .grid .grid-3 .sizes {
@@ -238,6 +238,7 @@
   color: white;
   -webkit-transition: .2s ease-in-out 0s;
   transition: .2s ease-in-out 0s;
+  border-radius: 30px;
 }
 
 .section1 .add-to-cart:hover {
@@ -496,7 +497,6 @@ footer .socials li a:hover {
             flex-direction: column;
     text-align: center;
     background-color: black;
-    z-index: 1;
     top: 70px;
   }
   .navlinks a {
@@ -511,6 +511,12 @@ footer .socials li a:hover {
   }
   .navlinks, .cart, .search {
     opacity: 0;
+  }
+  .menu {
+    display: block;
+  }
+  .menu:hover {
+    cursor: pointer;
   }
   .section1 {
     margin: 0;
@@ -533,6 +539,7 @@ footer .socials li a:hover {
     width: 50vh;
     position: relative;
     top: 50px;
+    left: 0;
   }
   .section1 .grid .review {
     position: relative;
