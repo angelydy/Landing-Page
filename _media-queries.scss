@@ -1,10 +1,37 @@
-@media screen and (max-width: 480px),
+@media screen and (min-width: 320px) and (max-width: 480px),
       screen and (min-width: 481px) and (max-width: 767px), 
       screen and (min-width: 768px) and (max-width: 1024px),
       screen and (min-width: 1025px) and (max-width: 1280px), 
       screen and (min-width: 1281px) and (max-width: 1400px) {
   * {
     max-width: 100%;
+  }
+
+  .navlinks {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    z-index: 1;
+    top: 70px;
+
+    a {
+      color: white;
+    }
+
+    .active {
+      border-bottom: none;
+    }
+
+    &:hover{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .navlinks, .cart, .search {
+    opacity: 0;
   }
 
   .section1 {
@@ -18,7 +45,6 @@
 
       .product-img {
         width: 50vh;
-        height: auto;
         position: relative;
         top: 50px;
       }

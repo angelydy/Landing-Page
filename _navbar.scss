@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: 30px;
+  z-index: 5;
 }
 
   .logo {
@@ -64,6 +65,7 @@
 
   .menu {
     height: 30px;
+    width: 30px;
     position: relative;
     top: 5px;
 

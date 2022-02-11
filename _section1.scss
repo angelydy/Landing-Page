@@ -47,8 +47,7 @@
       }
 
       .product-img {
-        width: 100vh;
-        height: auto;
+        width: 800px;
         animation: rotate 5s forwards;
       }
 
@@ -91,8 +90,8 @@
         border-style: none;
         background-color: black;
         color: white;
-        width: 5vh;
-        height: 5vh;
+        width: 40px;
+        height: 40px;
         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
         margin: 5px 0px;
 
@@ -108,8 +107,8 @@
     }
 
     .add-to-cart {
-      width: 20vh;
-      height: 5vh;
+      width: 150px;
+      height: 50px;
       border-style: none;
       box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
       background-color: black;
@@ -125,7 +124,6 @@
 
     .like {
       width: 30px;
-      height: auto;
       position: relative;
       left: 30px;
       top: 10px;
