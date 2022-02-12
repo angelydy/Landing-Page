@@ -5,14 +5,17 @@
   var name = parameters.get('name')
   var email = parameters.get('email')
 
-  var currentUrl = document.querySelector('[data-url-current]')
-  var domName = document.querySelector('[data-name]')
-  var domEmail = document.querySelector('[data-email]')
+  console.log ("Name:", name, "Email", email)
+
+  var Name = document.querySelector('[data-name]')
+  Name.textContent = name
+  var Email = document.querySelector('[data-email]')
+  Email.textContent = email
 
   currentUrl.textContent = 'current URL: ' + href
 
   if (name && email) {
-    domName.textContent = 'Name: ' + name
-    domEmail.textContent = 'Email: ' + email
+    Name.textContent = 'Name: ' + name
+    Email.textContent = 'Email: ' + email
   }
 })()

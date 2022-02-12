@@ -12,10 +12,10 @@ $height: 100px;
 }
 
 @keyframes fade {
-  0%, 50% {
+  0% {
     opacity: 0;
   }
-  70%, 100% {
+  100% {
     opacity: 1;
   }
 }
@@ -59,8 +59,7 @@ $height: 100px;
         right: 0px;
         z-index: 1;
         font-size: 50px;
-        animation: fade 5s infinite;
-        animation-timing-function: ease-in-out;
+        animation: fade linear 5s infinite;
       }
 
       .review {

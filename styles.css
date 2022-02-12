@@ -105,19 +105,19 @@
 }
 
 @-webkit-keyframes fade {
-  0%, 50% {
+  0% {
     opacity: 0;
   }
-  70%, 100% {
+  100% {
     opacity: 1;
   }
 }
 
 @keyframes fade {
-  0%, 50% {
+  0% {
     opacity: 0;
   }
-  70%, 100% {
+  100% {
     opacity: 1;
   }
 }
@@ -166,10 +166,8 @@
   right: 0px;
   z-index: 1;
   font-size: 50px;
-  -webkit-animation: fade 5s infinite;
-          animation: fade 5s infinite;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  -webkit-animation: fade linear 5s infinite;
+          animation: fade linear 5s infinite;
 }
 
 .section1 .grid .review {
