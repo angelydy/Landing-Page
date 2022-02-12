@@ -1,7 +1,7 @@
 # Landing-Page
 Responsive Product Landing Page
 
-[View Live Version Here](https://github.com/angelydy/Landing-Page.git)
+[View Live Version Here](https://landing-page-by-anj.vercel.app/)
 
 
 ![SamplePhoto](001.png)
