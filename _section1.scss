@@ -1,3 +1,5 @@
+$height: 100px;
+
 @keyframes rotate {
   0%, 10% {
     transform: rotate(0);
@@ -37,7 +39,6 @@
     }
 
     .grid {
-      overflow: visible;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
 
@@ -146,5 +147,27 @@
         transform: scale(1.10);
         cursor: pointer;
       }
+    }
+  }
+
+  .partners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 30;
+
+    .converse, .bauer, .hurley {
+      width: 150px;
+      height: $height;
+    }
+
+    .colehaan {
+      width: 200px;
+      height: $height;
+    }
+
+    .pou {
+      width: 90px;
+      height: 80px;
     }
   }
