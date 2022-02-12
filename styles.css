@@ -3,9 +3,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: 30px;
 }
 
@@ -485,7 +484,7 @@ footer .socials li a {
 }
 
 footer .socials li a i {
-  width: 20px;
+  width: 25px;
 }
 
 footer .socials li a:hover {
