@@ -45,7 +45,6 @@
   color: white;
   left: 50px;
   position: relative;
-  border-radius: 30px;
 }
 
 .search:hover {
@@ -245,7 +244,6 @@
   color: white;
   -webkit-transition: .2s ease-in-out 0s;
   transition: .2s ease-in-out 0s;
-  border-radius: 30px;
 }
 
 .section1 .add-to-cart:hover {
@@ -303,7 +301,6 @@
 .section2 {
   margin: 15vh;
   background-color: black;
-  border-radius: 90px;
   -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -374,6 +371,43 @@
   border-radius: 50px;
 }
 
+.about-container h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: justify;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+.about div {
+  margin: 0 70px;
+}
+
+.about .about-text {
+  padding-top: 15%;
+}
+
+.about .about-text .about-title {
+  border-bottom: black 2px solid;
+  font-weight: bold;
+}
+
+.about img {
+  width: 50vh;
+}
+
 .section3 {
   background-color: black;
   color: white;
@@ -413,7 +447,6 @@
 }
 
 .section3 .parent-container .right-form .form .name, .section3 .parent-container .right-form .form .email, .section3 .parent-container .right-form .form .message {
-  border-radius: 5px;
   width: 60vh;
   height: 5vh;
   border-style: none;
@@ -608,7 +641,6 @@ footer .socials li a:hover {
   }
   .section2 {
     margin: 0;
-    border-radius: 0;
   }
   .section2 .products {
     display: -webkit-box;
@@ -626,6 +658,26 @@ footer .socials li a:hover {
   }
   .section2 iframe {
     margin: 30px;
+  }
+  .about-container {
+    padding-bottom: 20%;
+  }
+  .about-container h1 {
+    padding-top: 30%;
+  }
+  .about-container .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .about-container .about div {
+    margin: 0;
+  }
+  .about-container .about img {
+    padding-top: 20%;
   }
   .section3 {
     display: -webkit-box;
