@@ -596,7 +596,6 @@ footer .socials li a:hover {
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
-    padding-top: 10%;
   }
   .section1 {
     margin: 0;
@@ -678,7 +677,7 @@ footer .socials li a:hover {
   }
   .about-container .about .about-desc {
     margin: 10%;
-    text-align: justify;
+    text-align: center;
   }
   .about-container .about .about-title {
     border-bottom: none;
