@@ -1,4 +1,89 @@
 * {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1518656306295-aa28b28b2504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat center fixed;
+  background-size: cover;
+  
+}
+
+.text {
   text-align: center;
+  position: relative;
+  top: 50%;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.logo {
+  width: 15vh;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  color: black;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer .content h3 {
+  line-height: 3rem;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 100px;
+}
+
+footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+footer .socials li {
+  margin: 0 10px;
+}
+
+footer .socials li a {
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+footer .socials li a i {
+  width: 25px;
+}
+
+footer .socials li a:hover {
+  color: black;
+  background-color: white;
 }

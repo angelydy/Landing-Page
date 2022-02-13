@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="assets/icon.png">
   <script src="https://kit.fontawesome.com/b87f4958ef.js" crossorigin="anonymous"></script>
-  <script src="/index.js" defer></script>
 </head>
 
 <body>
@@ -127,7 +126,7 @@
             <br>
             <h1 class="section-title">Contact Us</h1>
             <br>
-            <form action="/2nd page/index.html" class="form" id="form" target="_blank">
+            <form action="/2nd page/index.html" class="form" id="form" method="get" target="_blank">
               <label for="name"> Name:
                 <br>
                 <input type="text" class="name" name="name" id="name" required placeholder="Enter Your Name Here">
@@ -143,7 +142,9 @@
                 <textarea class="message" id="message" required placeholder="Tell us how can we help you"></textarea>
               </label>
               <br><br>
-              <button type="submit" class="submit" id="submit">Submit</button>
+              <label for="submit">
+                <input type="submit" class="submit" id="submit">
+              </label>
             </form>
           </div>
         </div>
