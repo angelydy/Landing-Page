@@ -596,6 +596,7 @@ footer .socials li a:hover {
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
+    padding-top: 70%;
   }
   .section1 {
     margin: 0;
