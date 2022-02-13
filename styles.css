@@ -642,6 +642,9 @@ footer .socials li a:hover {
             justify-content: space-evenly;
     margin: 0 80px;
   }
+  .section1 .grid .size-buttons button {
+    margin: 5px;
+  }
   .section2 {
     margin: 0;
   }
