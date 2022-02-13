@@ -40,6 +40,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    padding-top: 10%;
   }
 
   .section1 {
@@ -69,14 +70,15 @@
       .review {
         position: relative;
         top: 50px;
+        margin: 3vh;
       }
-    }
 
-    .size-buttons {
-      display: flex;
-      flex-direction: row;
-      justify-content:space-evenly;
-      margin: 0 80px;
+      .size-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        margin: 0 80px;
+      }
     }
   }
 
@@ -109,6 +111,15 @@
       flex-direction: column;
       text-align: center;
       margin: 0;
+
+      .about-desc {
+        margin: 10%;
+        text-align: justify;
+      }
+
+      .about-title {
+        border-bottom: none;
+      }
   
       div {
         margin: 0;
